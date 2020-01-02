@@ -6,9 +6,9 @@ alias node='clear && node'
 # G I T
 alias gs='clear && git status'
 alias gl='clear && git log --oneline --graph'
+alias gr='git remote -v'
 alias gb='clear && git branch -va'
-alias gg='clear && git add --all :/ && git commit -m "housekeeping" && gs'
-alias ggg='clear && git add --all :/ && git commit -m "housekeeping" && git push origin master && gs'
+alias gg='clear && git add --all :/ && git commit -m "SQUISH ME'
 
 # B A S H
 alias b='vi ~/.bashrc'
